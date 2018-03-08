@@ -6,7 +6,7 @@ namespace Graph
 {
     public class Graph<T>
     {
-        public IList<T> GraphNodes { get; set; }
+        public IList<GraphNode<T>> GraphNodes { get; set; }
 
         public IList<Edge<T>> Edges { get; set; }
     }
