@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Graph
 {
@@ -6,6 +7,6 @@ namespace Graph
     {
         public T Data { get; set; }
 
-        public 
+        public IList<Edge<T>> Edges { get; set; }
     }
 }
